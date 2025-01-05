@@ -1,0 +1,69 @@
+
+body{
+    background:url('from.jpg') no-repeat center center/cover;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+    width: 850px;
+    border: 1px solid black;
+align-items: center;
+margin: auto;
+margin-top:50px;
+background-color: rgba(0, 0, 0, 0.405);
+box-shadow: inset -10px -10px rgb(0, 0, 5);
+border-radius: 300px;
+
+}
+
+.form h1{
+    color: aliceblue;
+    font-size: 2rem;
+    border-bottom: 4px solid rgb(255, 255,255, 0.5);
+    margin: 50px;
+}
+
+.box{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: rgba(8, 206, 170, 0.643);
+    box-shadow: inset -8px -8px rgb(0, 0, 0.5);
+    color: aliceblue;
+    font-size:1rem ;
+
+}
+
+
+
+#submit{
+    padding: 10px 20px;
+    margin-top: 50px;
+   height: 50px;
+   width: 50px;
+    background-color: rgb(168, 188, 40);
+    box-shadow: inset -3px -3px rgb(30, 161, 187) ;
+    color: rgb(0, 0, 0);
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    font: 1rem;
+    text-align: center;
+    
+}
+
+#submit:hover{
+    cursor: pointer;
+   background-color: rgb(215, 93, 187);
+    color: beige;
+}
+::placeholder{
+    color: aliceblue;
+    opacity:0.7 ;
+}
